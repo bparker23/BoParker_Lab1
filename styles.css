@@ -1,0 +1,108 @@
+.navbar-expand-lg, .navbar-light, .bg-light{
+  background-color: #FFCCCC !important;
+  font-family:monospace !important;
+  font-size: 24px !important;
+}
+
+.page{
+  background-color: #F7F7F7 !important;
+  font-family:monospace !important;
+  color: #404040 !important;
+}
+.page-name-container{
+  display: flex;
+  justify-content: left;
+
+
+}
+.page-name{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.footer-container{
+  background-color: #FFCCCC !important;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.footer a{
+  color: #404040 !important;
+}
+
+.introductory-photo-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.introductory-photo{
+  width: 300px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.introductory-paragraph-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.introductory-paragraph{
+  width: 600px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  /* Puts a white boarder around each picture */
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+
+  /* Allows content bigger than the box to perfectly fit */
+  display: flex;
+  /* Centers the image inside its box */
+  justify-content: center;
+
+  overflow: hidden;
+}
